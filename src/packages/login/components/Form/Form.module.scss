@@ -1,0 +1,35 @@
+@import '@/styles/utilities.scss';
+
+.container {
+  max-width: 750px;
+  width: 100%;
+  padding: 36px 40px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0px 20px 20px 0px #00000014, 0px 0px 2px 0px #0000001f;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: var(--font-bold);
+  color: var(--dark);
+  margin-bottom: 16px;
+}
+
+.input {
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.links {
+  @include flex(flex-end);
+  gap: 16px;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--color-dark-blue);
+  padding: 14px;
+  color: #f5f5f5;
+  border-radius: var(--border-radius);
+}
